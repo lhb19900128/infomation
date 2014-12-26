@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+body{
+font-size: 12px;
+margin: 0 auto;/*表示边距清0，自动左右居中*/
+width: 780px;
+}
+
+.font_style1{
+	font-weight: bold;
+}
+
+.font_style2{
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.font_style3{
+	font-weight: bold;
+	color: #FF6600;
+}
+
+.font_style4{
+	font-weight: bold;
+	color: #D5A7EF;
+}
+
+.font_style5{
+	font-weight: bold;
+	color: #3366EE;
+}
+
+/*对超链接的样式指定*/
+a:link{
+	text-decoration: none;
+	color: #266CAC;
+}
+
+/*下划线样式*/
+.under_line_style{
+	height: 3px;
+	background-color: #CC0000;
+}

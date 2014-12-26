@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+.banner {
+	height: 202px;
+	width: 780px;
+}
+
+.mid_left {
+	/*height: 500px;*/
+	width: 215px;
+	background-color: pink;
+	float: left; /*必须写上*/
+}
+
+/*广告信息头,快速信息检索头*/
+.ad_info_title, .ad_info_search {
+	width: 215px;
+	height: 30px;
+	background-color: #EDEDED;
+	float: left; /*必须写上*/
+	border-top: 1px dotted gray;
+	border-bottom: dotted gray;
+}
+
+.ad_info_title span, .ad_info_search span {
+	margin-left: 5px;
+	margin-top: 7px;
+	display: block; /*为了让span响应margin-top，让span转为块元素显示*/
+}
+
+/*广告列表*/
+.ad_info_list {
+	width: 215px;
+	height: 200px;
+	background-color: #FEFEF6;
+	float: left;
+	line-height: 20px;
+}
+
+.ad_info_list ul {
+	padding-left: 30px;
+}
+
+.info_search {
+	width: 215px;
+	height: 110px;
+	background-image: url(../images/query.gif);
+	float: left;
+}
+
+.info_search table {
+	margin-left: 5px;
+	margin-top: 5px;
+	line-height: 30px;
+}
+
+.contact_info {
+	width: 215px;
+	height: 150px;
+	background-color: #FEFDF8;
+	float: left;
+}
+
+.contact_info span {
+	margin-top: 5px;
+	margin-left: 15px;
+	display: block;
+	line-height: 20px;
+}
+
+/*中间右边的div*/
+.mid_right {
+	width: 563px;
+	/*height: 500px;*/
+	background: pink;
+	float: right;
+}
+
+/*付费专区图*/
+.pay_title {
+	width: 563px;
+	height: 27px;
+	background-image: url("../images/fufei.gif");
+	float: left;
+}
+
+.pay_info, .free_info {
+	width: 563px;
+	height: 110px;
+	background-color: white;
+	float: left;
+}
+
+.free_info {
+	height: 360px;
+}
+
+.pay_info table, .free_info table {
+	width: 500px;
+	margin-left: 5px;
+	margin-top: 10px;
+	border-collapse: collapse;
+	line-height: 20px;
+}
+
+.pay_info table td {
+	
+}
+
+.ad_img {
+	width: 563px;
+	height: 87px;
+	background-color: white;
+	float: left;
+}
+
+/*免费专区*/
+.free_title {
+	width: 563px;
+	height: 27px;
+	background-image: url("../images/mianfei.gif");
+	float: left;
+}
+
+/*分页*/
+.pagenavi {
+	float: right;
+}
+
+/*用户首页底部*/
+.user_bottom {
+	width: 780px;
+	height: 57px;
+	background-image: url("../images/bottom_bg.gif");
+	float: left;
+}
+
+.user_bottom span{
+	display: block;
+	margin-top: 20px;
+	margin-left: 140px;
+}
